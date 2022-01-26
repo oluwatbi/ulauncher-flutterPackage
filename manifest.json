@@ -1,0 +1,20 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "flutterPackage",
+  "description": "Quickly search for flutter packages on pub.dev",
+  "developer_name": "Oluwatobiloba Oyelowo",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "flutterPackage_kw",
+      "type": "keyword",
+      "name": "flutter_pub",
+      "description": "Search for flutter packages",
+      "default_value": "flutter_pub"
+    }
+  ]
+}
+
